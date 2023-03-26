@@ -4,7 +4,7 @@
 
 ![Teaser image](teaser.png)
 
-[ManiCLIP: Multi-Attribute Face Manipulation from Text](https://arxiv.org/abs/2210.00445)
+[**ManiCLIP: Multi-Attribute Face Manipulation from Text**](https://arxiv.org/abs/2210.00445)
 
 Abstract: *In this paper we present a novel multi-attribute face manipulation method based on textual descriptions. Previous text-based image editing methods either require test-time optimization for each individual image or are restricted to single attribute editing. Extending these methods to multi-attribute face image editing scenarios will introduce undesired excessive attribute change, e.g., text-relevant attributes are overly manipulated and text-irrelevant attributes are also changed. In order to address these challenges and achieve natural editing over multiple face attributes, we propose a new decoupling training scheme where we use group sampling to get text segments from same attribute categories, instead of whole complex sentences. Further, to preserve other existing face attributes, we encourage the model to edit the latent code of each attribute separately via an entropy constraint. During the inference phase, our model is able to edit new face images without any test-time optimization, even from complex textual prompts. We show extensive experiments and analysis to demonstrate the efficacy of our method, which generates natural manipulated faces with minimal text-irrelevant attribute editing.*
 
