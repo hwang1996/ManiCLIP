@@ -4,7 +4,7 @@
 
 ## Dataset
 
-During the training phase, we do not need any data, except the 40-category face [attributes](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). During the testing phase, the text data can be obtained from [Multi-Modal-CelebA-HQ](https://github.com/IIGROUP/MM-CelebA-HQ-Dataset).
+During the training phase, we do not need any data, except the 40-category face [attributes](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) (list_attr_celeba.txt). During the testing phase, the text data can be obtained from [Multi-Modal-CelebA-HQ](https://github.com/IIGROUP/MM-CelebA-HQ-Dataset) (text.zip).
 
 ## Pretrained models
 
@@ -24,4 +24,15 @@ To generate edited images based on language:
 
 ```.bash
 python generate.py --model_path pretrained/pretrained_edit_model.pth.tar --text "this person has grey hair. he has mustache." --gen_num 5
+```
+
+## Reference
+If you find this repository useful, please cite:
+```
+@article{wang2022maniclip,
+  title={ManiCLIP: Multi-Attribute Face Manipulation from Text},
+  author={Wang, Hao and Lin, Guosheng and del Molino, Ana Garc{\'\i}a and Wang, Anran and Feng, Jiashi and Shen, Zhiqi},
+  journal={arXiv preprint arXiv:2210.00445},
+  year={2022}
+}
 ```
