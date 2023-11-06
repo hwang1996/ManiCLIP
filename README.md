@@ -16,7 +16,7 @@ During the training phase, we do not need any data, except the 40-category face 
 
 ## Pretrained models
 
-The pretrained models can be downloaded from this [link](https://entuedu-my.sharepoint.com/:u:/g/personal/hao005_e_ntu_edu_sg/EVJ4RLcEpgNLoHSZ6zAuCxMB1MWFrLz0CSGwKU-T9Bu3tA?e=uzHiZw).
+The pretrained models can be downloaded from this [link](https://hkustgz-my.sharepoint.com/:f:/g/personal/haowang_hkust-gz_edu_cn/EjFaiuxDA9ZJk6nBCyLBLroBivUDY4CjI9tM9TNpAzI2PA).
 
 ## Training
 
